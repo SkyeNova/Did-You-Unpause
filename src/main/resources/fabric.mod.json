@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "didyouunpause",
+	"version": "${version}",
+	"name": "Did You Unpause?",
+	"description": "Nags you with a title, a sound, and a chat message if your Flashback recording is still paused while you keep playing.",
+	"authors": [
+		"Skye"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/didyouunpause/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.didyouunpause.DidYouUnpause"
+		],
+		"modmenu": [
+			"com.didyouunpause.compat.ModMenuIntegration"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": [
+			">=1.21.9",
+			"<=1.21.10"
+		],
+		"java": ">=21",
+		"fabric-api": "*",
+		"flashback": ">=0.38.0"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

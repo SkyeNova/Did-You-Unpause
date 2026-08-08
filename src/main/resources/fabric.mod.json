@@ -7,8 +7,10 @@
 	"authors": [
 		"Skye"
 	],
-	"contact": {},
-	"license": "MIT",
+	"contact": {
+		"homepage": "https://www.callisto.host/"
+	},
+	"license": "Apache-2.0",
 	"icon": "assets/didyouunpause/icon.png",
 	"environment": "client",
 	"entrypoints": {
